@@ -1,0 +1,14 @@
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\obj\Debug\net8.0\RecepteurReseau.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\obj\Debug\net8.0\RecepteurReseau.AssemblyInfoInputs.cache
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\obj\Debug\net8.0\RecepteurReseau.AssemblyInfo.cs
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\obj\Debug\net8.0\RecepteurReseau.csproj.CoreCompileInputs.cache
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\bin\Debug\net8.0\RecepteurReseau.exe
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\bin\Debug\net8.0\RecepteurReseau.deps.json
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\bin\Debug\net8.0\RecepteurReseau.runtimeconfig.json
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\bin\Debug\net8.0\RecepteurReseau.dll
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\bin\Debug\net8.0\RecepteurReseau.pdb
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\obj\Debug\net8.0\RecepteurReseau.dll
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\obj\Debug\net8.0\refint\RecepteurReseau.dll
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\obj\Debug\net8.0\RecepteurReseau.pdb
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\obj\Debug\net8.0\RecepteurReseau.genruntimeconfig.cache
+C:\Users\marcl\source\repos\psr12236\Projet_Reseau\Sender\RecepteurReseau\obj\Debug\net8.0\ref\RecepteurReseau.dll

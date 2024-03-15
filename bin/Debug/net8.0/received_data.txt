@@ -1,0 +1,35 @@
+Pour maintenir la portabilité et la synchronisation de votre projet entre deux ordinateurs en utilisant Git, vous devrez suivre une série d'étapes à chaque fois que vous travaillez sur le projet. Voici une synthèse des actions à effectuer sur chaque ordinateur :
+
+### Lorsque vous commencez à travailler sur le projet (Ordinateur A ou B) :
+
+1. **Tirer les dernières modifications** :
+   - Avant de commencer à travailler, assurez-vous d'avoir la version la plus récente du projet. Utilisez la commande `git pull origin master` (ou `main` selon le nom de votre branche principale) pour tirer les dernières modifications depuis le dépôt distant. Cela vous évite de travailler sur une version obsolète du projet et réduit les conflits potentiels.
+
+### Après avoir travaillé sur le projet (Ordinateur A ou B) :
+
+1. **Vérifier l'état de votre dépôt** :
+   - Utilisez `git status` pour voir les modifications que vous avez faites. Cela vous montre les fichiers modifiés, ajoutés, ou supprimés qui ne sont pas encore commit.
+
+2. **Ajouter les modifications** :
+   - Utilisez `git add .` pour ajouter toutes les modifications à l'index. Pour ajouter des modifications spécifiques, utilisez `git add chemin/vers/le/fichier`.
+
+3. **Commit vos modifications** :
+   - Faites un commit de vos modifications avec `git commit -m "message expliquant les modifications"`. Cela enregistre vos modifications dans l'historique du dépôt.
+
+4. **Pousser vos modifications** :
+   - Utilisez `git push origin master` (ou la branche sur laquelle vous travaillez) pour envoyer vos modifications au dépôt distant. Cela permet de garder le dépôt distant à jour avec vos derniers changements.
+
+### Avant de changer d'ordinateur :
+
+- Assurez-vous d'avoir **push** toutes vos modifications sur le dépôt distant depuis l'ordinateur sur lequel vous avez travaillé. Cela garantit que vous pouvez récupérer ces modifications sur l'autre ordinateur.
+
+### En changeant d'ordinateur (passant de A à B ou de B à A) :
+
+- Commencez par **tirer** les dernières modifications avec `git pull origin master` (ou la branche correspondante) sur le nouvel ordinateur avant de commencer à travailler. Cela assure que vous travaillez sur la version la plus à jour du projet.
+
+### Conseils supplémentaires :
+
+- **Gestion des conflits** : Si vous rencontrez des conflits lors d'un `git pull`, Git vous demandera de les résoudre avant de pouvoir continuer. Cela peut impliquer d'éditer les fichiers manuellement et de choisir quelles modifications conserver.
+- **Utilisation de branches** : Pour des fonctionnalités spécifiques ou des expérimentations, envisagez de travailler sur des branches séparées avec `git checkout -b nom_de_la_branche`. Cela vous permet de garder votre travail organisé et de ne pas affecter directement la branche principale.
+
+En suivant ces étapes, vous pouvez efficacement maintenir la portabilité et la synchronisation de votre projet entre deux ordinateurs en utilisant Git.
